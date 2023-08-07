@@ -102,18 +102,49 @@
 
 
 
-let result = 5 + 5 + "5";
-console.log(result);
-console.log (typeof result);
+// let result = 5 + 5 + "5";
+// console.log(result);
+// console.log (typeof result);
 
 
-let email =  "dream.er03062006@gmail.com";
-console.log(email.includes("@"));
-console.log(email.length);
+// let email =  "dream.er03062006@gmail.com";
+// console.log(email.includes("@"));
+// console.log(email.length);
 
 
-let word1 = "My";
-let word2 = "name";
-let word3 = "is";
-let fullName = ` ${word1}  ${word2}   ${word3} Viktor `;
-console.log(fullName);
+// let word1 = "My";
+// let word2 = "name";
+// let word3 = "is";
+// let fullName = ` ${word1}  ${word2}   ${word3} Viktor `;
+// console.log(fullName);
+
+
+
+
+
+
+// hw4
+
+let input = document.querySelector("input").getAttribute("placeholder");
+let btn = document.querySelector("#btn") 
+btn.textContent = `${inputAttr}`;
+
+
+let img = document.querySelector(".img")
+img.setAttribute("src"," https://images.pexels.com/photos/17683083/pexels-photo-17683083.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load")
+
+
+let a = document.querySelector(".a");
+let foto = document.querySelector(".foto");
+a.setAttribute("href","https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2");
+foto.setAttribute("alt","LvivisUkraine");
+
+
+let list = document.querySelector("li");
+list.textContent= "Ukraine";
+
+
+
+
+
+
