@@ -127,7 +127,7 @@
 
 let input = document.querySelector("input").getAttribute("placeholder");
 let btn = document.querySelector("#btn") 
-btn.textContent = `${inputAttr}`;
+btn.textContent = input ;
 
 
 let img = document.querySelector(".img")
