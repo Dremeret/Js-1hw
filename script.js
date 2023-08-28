@@ -125,23 +125,96 @@
 
 // hw4
 
-let input = document.querySelector("input").getAttribute("placeholder");
-let btn = document.querySelector("#btn") 
-btn.textContent = input ;
+// let input = document.querySelector("input").getAttribute("placeholder");
+// let btn = document.querySelector("#btn") 
+// btn.textContent = input ;
 
 
-let img = document.querySelector(".img")
-img.setAttribute("src"," https://images.pexels.com/photos/17683083/pexels-photo-17683083.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load")
+// let img = document.querySelector(".img")
+// img.setAttribute("src"," https://images.pexels.com/photos/17683083/pexels-photo-17683083.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load")
 
 
-let a = document.querySelector(".a");
-let foto = document.querySelector(".foto");
-a.setAttribute("href","https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2");
-foto.setAttribute("alt","LvivisUkraine");
+// let a = document.querySelector(".a");
+// let foto = document.querySelector(".foto");
+// a.setAttribute("href","https://uk.wikipedia.org/wiki/%D0%9B%D1%8C%D0%B2%D1%96%D0%B2");
+// foto.setAttribute("alt","LvivisUkraine");
 
 
-let list = document.querySelector("li");
-list.textContent= "Ukraine";
+// let list = document.querySelector("li");
+// list.textContent= "Ukraine";
+
+
+
+// hw5
+
+
+// let btn = document.querySelector(".btn");
+// btn.addEventListener("click", function( ){
+//  let input = document.querySelector(".input1").value;
+//  let input2 = document.querySelector(".input2").value;
+
+// if( input && input2){
+//     console.log("Обидва поля заповнені");
+
+// }
+// else{
+//     console.log(" Не всі поля заповнені");
+// }
+
+// });
+
+
+  
+
+// let btn2 = document.querySelector(".btn2");
+
+
+// btn2.addEventListener("click",function(){
+//     let input3 = document.querySelector(".input3")
+//     let input4 = document.querySelector(".input4")
+    
+//     let input3Value = parseFloat(input3.value);
+//     let input4Value = parseFloat(input4.value);
+
+//     if(input3Value + input4Value > 10){
+//      console.log(" Сума більше за 10")
+//     }
+//     else{ console.log(" Сума менше за 10")}
+// })
+
+
+
+
+// let btn3 = document.querySelector(".btn3");
+
+// btn3.addEventListener("click", function(){
+//     let perevirka = document.querySelector(".perevirka");
+    
+//     if(perevirka.ariaValueMax.includes("JavaScript")){
+//       console.log("Текст містить слово JavaScript")
+//     }
+//     else{ console.log("Текст не містить слово JavaScript")}
+// })
+
+
+
+let btn4 = document.querySelector(".btn4");
+btn4.addEventListener("click",function(){
+    let input5 = document.querySelector(".input5");
+
+    if(input5Value > 10 && input5Value < 20){
+        console.log("Число входить в діапазон від 10 до 20")
+    }
+    else{  console.log("Число не входить в діапазон від 10 до 20")};
+} )
+
+
+
+
+
+
+
+
 
 
 
