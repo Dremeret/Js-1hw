@@ -198,18 +198,79 @@
 
 
 
-let btn4 = document.querySelector(".btn4");
-btn4.addEventListener("click",function(){
-    let input5 = document.querySelector(".input5");
+// let btn4 = document.querySelector(".btn4");
+// btn4.addEventListener("click",function(){
+//     let input5 = document.querySelector(".input5");
+//     console.log("input5");
+//     if(input5 > 10 && input5 < 20){
+//         console.log("Число входить в діапазон від 10 до 20")
+//     }
+//     else{  console.log("Число не входить в діапазон від 10 до 20")};
+// } )
 
-    if(input5Value > 10 && input5Value < 20){
-        console.log("Число входить в діапазон від 10 до 20")
-    }
-    else{  console.log("Число не входить в діапазон від 10 до 20")};
-} )
 
 
 
+// hw6
+
+
+// let numbers = 0;
+
+
+
+// let i = 1
+//  while( i <=10){
+//     console.log(i);
+//     i++;
+//  }
+
+
+
+// for ( let i = 2 ;i <= 20; i++){
+    
+
+// if(i % 2 ){
+// continue
+// }
+
+
+// console.log(i);
+
+
+
+// };
+
+
+
+// let num ;
+
+// for(let i = 1 ; i <= 10; i++){
+//   num = 7 * i ;
+//   console.log(num);
+
+// };
+
+
+
+
+// let number = [1,2,3,4,5];
+// let i = 0;
+// while(i < number.length){
+//    console.log(number[i]);
+//    i++;
+// }
+
+
+let array = [1,2,3,4,5,6,7,8,9,10];
+
+for(let i = 0; i < array.length;i++){
+
+  console.log(array[i]);
+
+if(array[i] === 7){
+    break
+  }
+};
 
 
 
