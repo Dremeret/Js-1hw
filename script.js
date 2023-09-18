@@ -261,16 +261,53 @@
 // }
 
 
-let array = [1,2,3,4,5,6,7,8,9,10];
+// let array = [1,2,3,4,5,6,7,8,9,10];
 
-for(let i = 0; i < array.length;i++){
+// for(let i = 0; i < array.length;i++){
 
-  console.log(array[i]);
+//   console.log(array[i]);
 
-if(array[i] === 7){
-    break
-  }
-};
+// if(array[i] === 7){
+//     break
+//   }
+// };
+
+
+
+// hw7
+
+
+// let arr = [1,2,3];
+// arr.splice(1,1,10);
+// console.log(arr);
+// alert(arr);
+
+
+// let fruits = ["Apple", "Orange", "Plum"];
+// fruits[3] = "Lemon";
+// console.log(fruits);
+
+let array = [1,2,3];
+array =  1 + 2 + 3;
+console.log(array);
+
+
+
+// let arr2 = [1,2,3,4,5];
+
+// for(let i = 0; i < arr2.length; i++){
+//    console.log(arr2[i])
+// };
+
+
+// let arr3 = ["12","142","362891","22","10"];
+// for(let i = 0; i < arr3.length; i++){
+//    if(arr3[i].length > 5){
+//      console.log(arr3[i]);
+     
+//    }
+// };
+
 
 
 
