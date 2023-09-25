@@ -287,9 +287,10 @@
 // fruits[3] = "Lemon";
 // console.log(fruits);
 
-let array = [1,2,3];
-array =  1 + 2 + 3;
-console.log(array);
+// let array = [1,2,3];
+// for(let i = 0; i < arr2.length; i++){
+   
+// }
 
 
 
@@ -309,8 +310,85 @@ console.log(array);
 // };
 
 
+// let arr4 = [1,34,72,4,95,84,2,8,9,16];
+ 
 
 
+
+
+
+
+// hw9
+
+// const btn = document.querySelector(".btn") ;
+
+// btn,addEventListener("click",   ()  => {
+//     alert("Hello World")
+// });
+
+//  task2
+
+// const inputValue = document.querySelector("#guessField");
+
+// const pText = document.querySelector("#guessResult");
+
+// const checkGuess =  () => {
+//   let rndNumber = Math.floor(Math.random() * 99 + 1);
+//   if(rndNumber ===  +inputValue.value){
+//    pText.textContent = " Ви вгадали";
+//   }
+//   else{
+//     pText.textContent = " Ви  не  вгадали";
+//   }
+// };
+
+
+// task3
+// let counter = 0
+
+// document.addEventListener("click",()=>{
+//   counter++;
+//   console.log(`На сторінку натиснули ${counter}`)
+// });
+
+// task4
+
+// const applyCallbackToEachElement = (arr,callback) => {
+//  const arrayNumber = [];
+//  for(const number of arr){
+//     arrayNumber.push(callback(number));
+//  }
+
+// return arrayNumber;
+
+// };
+
+// const arr = [1,2,3,4,5];
+// const squareCallback = (number) => {
+//     return number ** 2
+// };
+
+// const result = applyCallbackToEachElement(arr, squareCallback);
+// console.log(result);
+
+
+
+
+// task5
+
+
+
+const calculateDiscountedPrice = (price,discount,callback) => {
+let discountPrice = price -  price /  discount ;
+ callback(discountPrice);
+};
+
+const showDiscountedPrice = (discount) => {
+    console.log( ` ваш товар коштує ${discount}  грн `)
+} 
+
+
+calculateDiscountedPrice(100,10,showDiscountedPrice);
 
 
 
