@@ -316,6 +316,36 @@
 
 
 
+// hw8
+
+const friends = ["Mango","Poly","Ajax","Kiwi"];
+for(let i = 0; i < arr3.length; i++){
+
+};
+console.log(friends.join(","))
+
+
+const card =[
+  "Карточка-1",
+  "Карточка-2",
+  "Карточка-3",
+  "Карточка-4",
+  "Карточка-5"
+
+];
+
+
+let index = card.indexOf("Карточка-3") ;
+card.splice(index,1);
+console.log(card);
+
+
+card.splice(5,0,"Карточка-6");
+console.log(card);
+
+
+card.splice(0,1,"Нова карточка");
+console.log(card);
 
 
 // hw9
@@ -378,17 +408,17 @@
 
 
 
-const calculateDiscountedPrice = (price,discount,callback) => {
-let discountPrice = price -  price /  discount ;
- callback(discountPrice);
-};
+// const calculateDiscountedPrice = (price,discount,callback) => {
+// let discountPrice = price -  price /  discount ;
+//  callback(discountPrice);
+// };
 
-const showDiscountedPrice = (discount) => {
-    console.log( ` ваш товар коштує ${discount}  грн `)
-} 
+// const showDiscountedPrice = (discount) => {
+//     console.log( ` ваш товар коштує ${discount}  грн `)
+// } 
 
 
-calculateDiscountedPrice(100,10,showDiscountedPrice);
+// calculateDiscountedPrice(100,10,showDiscountedPrice);
 
 
 
