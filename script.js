@@ -318,34 +318,34 @@
 
 // hw8
 
-const friends = ["Mango","Poly","Ajax","Kiwi"];
-for(let i = 0; i < arr3.length; i++){
+// const friends = ["Mango","Poly","Ajax","Kiwi"];
+// for(let i = 0; i < arr3.length; i++){
 
-};
-console.log(friends.join(","))
-
-
-const card =[
-  "Карточка-1",
-  "Карточка-2",
-  "Карточка-3",
-  "Карточка-4",
-  "Карточка-5"
-
-];
+// };
+// console.log(friends.join(","))
 
 
-let index = card.indexOf("Карточка-3") ;
-card.splice(index,1);
-console.log(card);
+// const card =[
+//   "Карточка-1",
+//   "Карточка-2",
+//   "Карточка-3",
+//   "Карточка-4",
+//   "Карточка-5"
+
+// ];
 
 
-card.splice(5,0,"Карточка-6");
-console.log(card);
+// let index = card.indexOf("Карточка-3") ;
+// card.splice(index,1);
+// console.log(card);
 
 
-card.splice(0,1,"Нова карточка");
-console.log(card);
+// card.splice(5,0,"Карточка-6");
+// console.log(card);
+
+
+// card.splice(0,1,"Нова карточка");
+// console.log(card);
 
 
 // hw9
@@ -421,7 +421,7 @@ console.log(card);
 // calculateDiscountedPrice(100,10,showDiscountedPrice);
 
 
-
+// hw10
 
 
 
